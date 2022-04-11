@@ -1,0 +1,32 @@
+.slides{
+    grid-row: auto;
+    grid-column: 1/-1;
+    position: relative;  
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    // padding-bottom: 3rem;
+    background-color: transparent;
+    // width: 100vw;
+}
+.mySlide{
+    display: none;
+    max-width:150rem;
+    height: 100vh;
+    margin: 0 auto;
+    // background-color: aqua;
+    margin-bottom: 3rem;
+    &__img{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: cover;
+        filter: blur(1px);
+    
+    }
+}
+.dot__container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,12 @@
+.dot__container{
+    text-align: center;
+}
+.dot{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    transition:background-color 0.5 ease;
+}

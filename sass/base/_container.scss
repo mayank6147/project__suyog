@@ -1,0 +1,6 @@
+body{
+    display: grid;
+    grid-template-columns: 3rem repeat(10,1fr) 3rem;
+    grid-template-rows: 6.4rem auto;
+    height: 100vh;
+}
